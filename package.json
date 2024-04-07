@@ -1,8 +1,11 @@
 {
   "name": "cv-2024-rmt",
   "private": true,
-  "version": "20.12.1",
+  "version": "0.0.1",
   "type": "module",
+  "engines": {
+    "node": "20.12.1"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
