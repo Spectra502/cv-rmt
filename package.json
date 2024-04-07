@@ -1,7 +1,7 @@
 {
   "name": "cv-2024-rmt",
   "private": true,
-  "version": "0.0.0",
+  "version": "20.12.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
