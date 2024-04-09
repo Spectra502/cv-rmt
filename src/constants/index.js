@@ -2,7 +2,14 @@ import {
     mobile,
     backend,
     creator,
-    web,
+    pytorch,
+    matlab,
+    rhino,
+    raspberry,
+    inventor,
+    eagle,
+    solidworks,
+    blender,
     javascript,
     typescript,
     html,
@@ -19,6 +26,10 @@ import {
     starbucks,
     tesla,
     shopify,
+    sipro,
+    tum,
+    tufast,
+    easy,
     carrent,
     jobit,
     tripguide,
@@ -42,20 +53,36 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
-      icon: web,
+      title: "Solidworks",
+      icon: solidworks,
     },
     {
-      title: "React Native Developer",
-      icon: mobile,
+      title: "Rhino 7",
+      icon: rhino,
     },
     {
-      title: "Backend Developer",
-      icon: backend,
+      title: "Matlab",
+      icon: matlab,
     },
     {
-      title: "Content Creator",
-      icon: creator,
+      title: "PyTorch",
+      icon: pytorch,
+    },
+    {
+      title: "Eagle",
+      icon: eagle,
+    },
+    {
+      title: "Inventor",
+      icon: inventor,
+    },
+    {
+      title: "Raspberry Pi",
+      icon: raspberry,
+    },
+    {
+      title: "Blender",
+      icon: blender,
     },
   ];
   
@@ -73,16 +100,8 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
     },
     {
       name: "Tailwind CSS",
@@ -93,10 +112,6 @@ import {
       icon: nodejs,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
       name: "Three JS",
       icon: threejs,
     },
@@ -104,49 +119,38 @@ import {
       name: "git",
       icon: git,
     },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Bachelor Thesis",
+      company_name: "TUM",
+      icon: tum,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "October 2023 - Now",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Investigated to what extent a continuous adaptation of a deep learning model, using continuous learning methods, affects the reliability of the issued predictions. On the basis of scientific literature, individual methods were selected and evaluated on existing data sets in the field of quality control.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Working Student",
+      company_name: "Easy Energiedienste Sonnenkraft-Freising GmbH",
+      icon: easy,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "November 2022 - September 2023",
+      points: [
+        "Responsible for project planning, including design of solar modules using Rhino (CAD program).",
+        "Development of Occupational Plans and Drawings for the construction of solar projects to support implementation.",
+        "Parts List Management and creation of detailed part lists for each project to ensure efficient material sourcing and cost control.",
+        "Development of a system for horizontal modules: In collaboration with my supervisor, I developed an innovative system for installing horizontal solar modules to increase the efficiency and performance of our solar projects.",
+      ],
+    },
+    {
+      title: "Lamination Production",
+      company_name: "TU-Fast ECO",
+      icon: tufast,
+      iconBg: "#E6DEDD",
+      date: "May 2021 - August 2022",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -155,11 +159,11 @@ import {
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Working Student",
+      company_name: "SIPRO",
+      icon: sipro,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "February 2017 - August 2018",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",

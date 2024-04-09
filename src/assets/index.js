@@ -3,9 +3,17 @@ import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
+import solidworks from "./solidworks.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import pytorch from "./pytorch.png";
+import rhino from "./rhino.png";
+import matlab from "./matlab.png";
+import eagle from "./eagle.png";
+import raspberry from "./raspberry.png";
+import inventor from "./inventor.png";
+import blender from "./blender.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -25,6 +33,10 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import easy from "./company/easy.jpeg";
+import sipro from "./company/sipro.png";
+import tufast from "./company/tufasteco.png";
+import tum from "./company/tum.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -35,6 +47,14 @@ export {
   backend,
   creator,
   mobile,
+  solidworks,
+  pytorch,
+  rhino,
+  matlab,
+  inventor,
+  eagle,
+  blender,
+  raspberry,
   web,
   github,
   menu,
@@ -56,6 +76,10 @@ export {
   shopify,
   starbucks,
   tesla,
+  sipro,
+  tufast,
+  tum,
+  easy,
   carrent,
   jobit,
   tripguide,
