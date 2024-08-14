@@ -116,18 +116,28 @@ import {
       icon: threejs,
     },
     {
-      name: "git",
+      name: "Git",
       icon: git,
     },
   ];
   
   const experiences = [
     {
-      title: "Bachelor Thesis",
-      company_name: "TUM",
+      title: "Research Project: Automatic damage classification of gears",
+      company_name: "Technical University of Munich, Chair of Machine Elements",
       icon: tum,
       iconBg: "#E6DEDD",
       date: "October 2023 - Now",
+      points: [
+        "Investigated to what extent a continuous adaptation of a deep learning model, using continuous learning methods, affects the reliability of the issued predictions. On the basis of scientific literature, individual methods were selected and evaluated on existing data sets in the field of quality control.",
+      ],
+    },
+    {
+      title: "Bachelor Thesis: Continuous Adaptation and Calibration of Deep Learning Models for Optical Quality Assurance",
+      company_name: "Technical University of Munich, Institute for Machine Tools and Industrial Management",
+      icon: tum,
+      iconBg: "#E6DEDD",
+      date: "October 2023 - May 2024",
       points: [
         "Investigated to what extent a continuous adaptation of a deep learning model, using continuous learning methods, affects the reliability of the issued predictions. On the basis of scientific literature, individual methods were selected and evaluated on existing data sets in the field of quality control.",
       ],
@@ -146,11 +156,11 @@ import {
       ],
     },
     {
-      title: "Lamination Production",
-      company_name: "TU-Fast ECO",
-      icon: tufast,
+      title: "Full Stack Developer",
+      company_name: "SIPRO SA de CV",
+      icon: sipro,
       iconBg: "#E6DEDD",
-      date: "May 2021 - August 2022",
+      date: "February 2017 - August 2018",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -159,11 +169,11 @@ import {
       ],
     },
     {
-      title: "Working Student",
-      company_name: "SIPRO",
-      icon: sipro,
+      title: "Lamination Production",
+      company_name: "TU-Fast ECO",
+      icon: tufast,
       iconBg: "#E6DEDD",
-      date: "February 2017 - August 2018",
+      date: "May 2021 - August 2022",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
