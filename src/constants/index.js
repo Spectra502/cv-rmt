@@ -1,7 +1,4 @@
 import {
-    mobile,
-    backend,
-    creator,
     pytorch,
     matlab,
     rhino,
@@ -34,6 +31,14 @@ import {
     jobit,
     tripguide,
     threejs,
+    sipro_website,
+    sipro_inverted,
+    rain_blender,
+    youtube_logo,
+    lqr,
+    github,
+    wine,
+    lego
   } from "../assets";
   
   export const navLinks = [
@@ -43,7 +48,11 @@ import {
     },
     {
       id: "work",
-      title: "Work",
+      title: "Experience",
+    },
+    {
+      id: "projects",
+      title: "Projects",
     },
     {
       id: "contact",
@@ -127,9 +136,11 @@ import {
       company_name: "Technical University of Munich, Chair of Machine Elements",
       icon: tum,
       iconBg: "#E6DEDD",
-      date: "October 2023 - Now",
+      date: "May 2024 - Present",
       points: [
-        "Investigated to what extent a continuous adaptation of a deep learning model, using continuous learning methods, affects the reliability of the issued predictions. On the basis of scientific literature, individual methods were selected and evaluated on existing data sets in the field of quality control.",
+        "Conducted research on Condition Monitoring for gears to identify and classify damage based on anomalies in acceleration signals, contributing to the sustainable use and design of gears.",
+        "Utilized MATLAB for signal preprocessing and diagnostic analysis, enabling the detection of damage-specific patterns in gear acceleration signals.",
+        "Implemented Machine Learning and Deep Learning models using Python, PyTorch, and Scikit-Learn to automate the classification of gear damage and assess its severity without relying on specific knowledge of tooth geometry.",
       ],
     },
     {
@@ -137,9 +148,13 @@ import {
       company_name: "Technical University of Munich, Institute for Machine Tools and Industrial Management",
       icon: tum,
       iconBg: "#E6DEDD",
-      date: "October 2023 - May 2024",
+      date: "October 2023 - April 2024",
       points: [
-        "Investigated to what extent a continuous adaptation of a deep learning model, using continuous learning methods, affects the reliability of the issued predictions. On the basis of scientific literature, individual methods were selected and evaluated on existing data sets in the field of quality control.",
+        "Investigated the impact of continuous learning methods on the calibration of deep learning models for optical quality monitoring, with a focus on enhancing predictive accuracy.",
+        "Implemented and evaluated continuous learning techniques using PyTorch and the Avalanche library, applying them to an existing dataset from the field of friction welding.",
+        "Utilized ResNet and EfficientNet architectures to explore and optimize deep learning models, assessing the influence of continuous learning on model calibration.",
+        "Applied Scikit-Learn for data preprocessing and analysis, ensuring robust evaluation of the implemented methods.",
+        "Analyzed and discussed the results, demonstrating the potential of continuous learning for the continuous adaptation and improvement of model calibration in Computer Vision tasks."
       ],
     },
     {
@@ -147,12 +162,11 @@ import {
       company_name: "Easy Energiedienste Sonnenkraft-Freising GmbH",
       icon: easy,
       iconBg: "#383E56",
-      date: "November 2022 - September 2023",
+      date: "November 2022 - October 2023",
       points: [
-        "Responsible for project planning, including design of solar modules using Rhino (CAD program).",
-        "Development of Occupational Plans and Drawings for the construction of solar projects to support implementation.",
-        "Parts List Management and creation of detailed part lists for each project to ensure efficient material sourcing and cost control.",
-        "Development of a system for horizontal modules: In collaboration with my supervisor, I developed an innovative system for installing horizontal solar modules to increase the efficiency and performance of our solar projects.",
+        "Led project planning efforts, including the design of solar modules using Rhino (CAD program), to ensure precise and efficient project execution and developed an innovative system for installing solar modules, significantly enhancing the efficiency and performance of solar projects.",
+        "Developed Occupational Plans and Drawings for the construction of solar projects.",
+        "Managed Parts Lists, creating detailed inventories for each project to optimize material sourcing and maintain cost control."
       ],
     },
     {
@@ -160,12 +174,11 @@ import {
       company_name: "SIPRO SA de CV",
       icon: sipro,
       iconBg: "#E6DEDD",
-      date: "February 2017 - August 2018",
+      date: "May 2021 - October 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Collaborated closely with designers to translate wireframes into functional, visually appealing web pages using HTML, CSS and JavaScript.",
+        "Developed API integrations, enhancing the website’s dynamic capabilities.",
+        "Managed content within a CMS, optimized it for SEO, and conducted testing for cross-browser compatibility to ensure a consistent user experience."
       ],
     },
     {
@@ -173,12 +186,12 @@ import {
       company_name: "TU-Fast ECO",
       icon: tufast,
       iconBg: "#E6DEDD",
-      date: "May 2021 - August 2022",
+      date: "October 2021 - September 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Prepared and cut carbon fiber materials with precision, ensuring alignment with exact design specifications.",
+        "Managed the curing process, including vacuum bagging and autoclave operations, to ensure defect-free laminates.",
+        "Performed finishing tasks such as trimming and sanding, ensuring components met strict quality standards.",
+        "Maintained detailed documentation of the production process, enhancing quality assurance and traceability.",
       ],
     },
   ];
@@ -186,84 +199,106 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "",
+      name: "",
+      designation: "",
+      company: "",
+      image: "",
     },
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Wine Quality Prediction",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Developed a model to predict wine quality based on chemical properties using PyTorch, Pandas, and Scikit-learn. Achieved high accuracy by leveraging deep learning and traditional ML techniques.",
       tags: [
         {
-          name: "react",
+          name: "PyTorch",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "pandas",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "scikit-learn",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: wine,
+      source_code_link: "https://websiteweinai-flphjzazmhh68p7tmwnkqe.streamlit.app",
+      src_img : github
     },
     {
-      name: "Job IT",
+      name: "Lego Replica Solidworks",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Created a detailed 3D replica of a Lego figure using SolidWorks, focusing on accurate dimensions and design. The project demonstrates proficiency in CAD modeling and attention to detail.",
       tags: [
         {
-          name: "react",
+          name: "solidworks",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "CAD",
+          color: "pink-text-gradient",
+        }
+      ],
+      image: lego,
+      source_code_link: "https://youtu.be/JE6czIxrUTc",
+      src_img : youtube_logo
+    },
+    {
+      name: "LQR Inverse Pendulum Stabilisation",
+      description:
+        "Designed a controller using LQR to balance an inverse pendulum on a moving carriage. The system minimizes spring deformation and vibrations solely by adjusting the carriage position.",
+      tags: [
+        {
+          name: "matlab",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "controlsystems",
+          color: "blue-text-gradient",
+        },
+      ],
+      image: lqr,
+      source_code_link: "https://www.youtube.com/shorts/jrCvVQGH-MQ",
+      src_img : youtube_logo
+    },
+    {
+      name: "Blender render",
+      description:
+        "Created a realistic 3D model using Blender, focusing on detailed landscape features and rendering techniques. The project showcases skills in 3D modeling and environmental design",
+      tags: [
+        {
+          name: "blender",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "premierpro",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "3Dmodeling",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: rain_blender,
+      source_code_link: "https://www.youtube.com/watch?v=PyzJu6Obvmo",
+      src_img : youtube_logo
     },
     {
-      name: "Trip Guide",
+      name: "Website development",
       description:
         "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
       tags: [
         {
-          name: "nextjs",
+          name: "javascript",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "html",
           color: "green-text-gradient",
         },
         {
@@ -271,8 +306,9 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: sipro_website,
+      source_code_link: "https://sipro.com.mx",
+      src_img : sipro_inverted
     },
   ];
   

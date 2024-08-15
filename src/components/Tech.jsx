@@ -4,6 +4,8 @@ import { SectionWrapper } from '../hoc';
 import { technologies } from '../constants';
 import { styles } from '../styles'
 import { motion } from 'framer-motion'
+import { fadeIn, textVariant } from '../utils/motion'
+import { Tilt } from 'react-tilt'
 
 
 const Tech = () => {
@@ -13,13 +15,16 @@ const Tech = () => {
       gap-10'
     >
       
-      <h2 className={styles.sectionHeadText}>Technologies used for this project</h2>
+      <motion.div variants={textVariant()}>
+        <h2 className={styles.sectionHeadText}>Technologies used for this project</h2>
+      </motion.div>
       
       <div className="flex flex-row flex-wrap justify-center gap-10">
+        
         {technologies.map((technology) => (
+          <motion.div key={technology.name}>
             <div
-              className='w-28 h-28'
-              key={technology.name}
+                className='w-28 h-28'
             >
               <BallCanvas icon={technology.icon} />
               <div className='flex flex-row flex-wrap justify-center
@@ -27,7 +32,8 @@ const Tech = () => {
                 <p className={styles.sectionSubText}>{technology.name}</p>
               </div>
             </div>
-          ))}
+          </motion.div>      
+        ))}
       </div>
       
       

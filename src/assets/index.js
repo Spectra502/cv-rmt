@@ -1,7 +1,7 @@
 import logo from "./logo.svg";
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
+//import backend from "./backend.png";
+//import creator from "./creator.png";
+//import mobile from "./mobile.png";
 import web from "./web.png";
 import solidworks from "./solidworks.png";
 import github from "./github.png";
@@ -35,18 +35,25 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import easy from "./company/easy.jpeg";
 import sipro from "./company/sipro.png";
+import sipro_inverted from "./company/sipro_inverted.png";
 import tufast from "./company/tufasteco.png";
 import tum from "./company/tum.png";
+import youtube_logo from "./company/youtube_logo.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import sipro_website from "./sipro_website.png";
+import rain_blender from "./rain_blender.png";
+import lqr from "./lqr_stabilization.png";
+import lego from "./lego_solidworks.png";
+import wine from "./wine_prediction.png";
 
 export {
   logo,
-  backend,
-  creator,
-  mobile,
+  //backend,
+  //creator,
+  //mobile,
   solidworks,
   pytorch,
   rhino,
@@ -83,4 +90,11 @@ export {
   carrent,
   jobit,
   tripguide,
+  sipro_website,
+  sipro_inverted,
+  rain_blender,
+  youtube_logo,
+  lqr,
+  wine,
+  lego
 };
