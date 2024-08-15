@@ -291,7 +291,7 @@ import {
     {
       name: "Website development",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Designed and developed a responsive and user-friendly website for a tech enterprise. Focused on enhancing user experience and ensuring cross-platform compatibility.",
       tags: [
         {
           name: "javascript",
