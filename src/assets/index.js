@@ -14,7 +14,7 @@ import eagle from "./eagle.png";
 import raspberry from "./raspberry.png";
 import inventor from "./inventor.png";
 import blender from "./blender.png";
-
+import download_icon from "./download_icon.png";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -80,6 +80,7 @@ export {
   typescript,
   threejs,
   meta,
+  download_icon,
   shopify,
   starbucks,
   tesla,

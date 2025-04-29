@@ -38,6 +38,7 @@ import {
     lqr,
     github,
     wine,
+    download_icon,
     lego
   } from "../assets";
   
@@ -53,6 +54,10 @@ import {
     {
       id: "projects",
       title: "Projects",
+    },
+    {
+      id: "certifications",
+      title: "Certifications",
     },
     {
       id: "contact",
@@ -132,11 +137,37 @@ import {
   
   const experiences = [
     {
+      title: "Master Thesis: Expansion and Validity of Models for Gear Damage Detection under Disturbances",
+      company_name: "Technical University of Munich, Chair of Machine Elements",
+      icon: tum,
+      iconBg: "#E6DEDD",
+      date: "February - Present",
+      points: [
+        "Expanded on previous research to improve machine learning models for gear damage detection under real-world disturbances like varying speeds and loads.",
+        "Focused on enhancing model robustness and accuracy for predictive maintenance in industrial gear systems.",
+        "Applied signal processing techniques and deep learning models to analyze vibration signals from gearboxes.",
+      ],
+    },
+    {
+      title: "Research Assistant: Communication of Heat Sensors and Heaters for Vehicle",
+      company_name: "Technical University of Munich, Chair of Ergonomics",
+      icon: tum,
+      iconBg: "#E6DEDD",
+      date: "September 2024 - March 2025",
+      points: [
+        "Developed the communication system for heat sensors and heaters in a vehicle cabin to test a new heating concept.",
+        "Programmed CAN bus communication protocols in Python, ensuring efficient data transfer between components.",
+        "Implemented parallel programming techniques to enhance system efficiency and performance.",
+        "Designed a user-friendly GUI for testing, enabling efficient result logging and real-time data visualization.",
+        "Resolved system stability issues caused by the communication protocol's prioritization, ensuring reliable data flow and consistent performance.",
+      ],
+    },
+    {
       title: "Research Project: Automatic damage classification of gears",
       company_name: "Technical University of Munich, Chair of Machine Elements",
       icon: tum,
       iconBg: "#E6DEDD",
-      date: "May 2024 - Present",
+      date: "May 2024 - November 2024",
       points: [
         "Conducted research on Condition Monitoring for gears to identify and classify damage based on anomalies in acceleration signals, contributing to the sustainable use and design of gears.",
         "Utilized MATLAB for signal preprocessing and diagnostic analysis, enabling the detection of damage-specific patterns in gear acceleration signals.",
@@ -311,5 +342,81 @@ import {
       src_img : sipro_inverted
     },
   ];
+
+  const certifications = [
+    {
+      name: "SolidWorks CAD Design Associate (CSWA)",
+      description:
+        "As a SolidWorks Certified Associate, I have demonstrated my expertise in creating accurate 3D models using SolidWorks. This certification verifies my proficiency in CAD modeling and engineering design, providing a strong foundation for mechanical design projects. It showcases my ability to efficiently design, analyze, and troubleshoot complex engineering solutions.",
+      tags: [
+        { name: "solidworks", color: "blue-text-gradient" },
+        { name: "CAD", color: "pink-text-gradient" },
+      ],
+      image: "/certifications/SOLIDWORKS_Associate_Design.png",
+      source_code_link: "/certifications/CSWA_Certificate_C-9NUYTW5JD6.pdf",
+      src_img: download_icon,
+    },
+    {
+      name: "SolidWorks Associate - Electrical (CSWA-E)",
+      description:
+        "This certification demonstrates my ability to integrate electrical design into mechanical systems using SolidWorks. I am trained in designing electrical systems, circuits, and components, enabling me to work on multidisciplinary projects that require both mechanical and electrical engineering expertise. This certification is key to ensuring seamless collaboration in complex, multi-domain engineering designs.",
+      tags: [
+        { name: "solidworks", color: "blue-text-gradient" },
+        { name: "CAD", color: "pink-text-gradient" },
+      ],
+      image: "/certifications/ASSOCIATE - ELECTRICAL.png",
+      source_code_link: "/certifications/Electrical_Certificate_C-CY42NUDEL6.pdf",
+      src_img: download_icon,
+    },
+    {
+      name: "SolidWorks Associate - Sustainability (CSWA-SD)",
+      description:
+        "With the Sustainability certification, I show my commitment to designing with environmental and energy-efficient considerations in mind. This certification emphasizes my understanding of sustainable design practices, including material selection, energy consumption, and the overall environmental impact of mechanical products. I focus on creating designs that are not only efficient but also align with green engineering principles.",
+      tags: [
+        { name: "solidworks", color: "blue-text-gradient" },
+        { name: "CAD", color: "pink-text-gradient" },
+      ],
+      image: "/certifications/ASSOCIATE - SUSTAINABILITY.png",
+      source_code_link: "/certifications/Sustainability_Certificate_C-VP3LREHMY6.pdf",
+      src_img: download_icon,
+    },
+    {
+      name: "SolidWorks Associate - Additive Manufacturing (CSWA-AM)",
+      description:
+        "This certification focuses on my expertise in additive manufacturing, specifically 3D printing. With this certification, I am proficient in designing parts that are optimized for additive processes, ensuring both functionality and manufacturability. My skills in this area allow me to innovate with new design concepts and efficiently integrate them into the production process.",
+      tags: [
+        { name: "solidworks", color: "blue-text-gradient" },
+        { name: "CAD", color: "pink-text-gradient" },
+      ],
+      image: "/certifications/ASSOCIATE - ADDITIVE MANUFACTURING.png",
+      source_code_link: "/certifications/Additive_Manufacturing_Certificate_C-YCL9ASK6NT.pdf",
+      src_img: download_icon,
+    },
+    /**{
+      name: "Full Stack JavaScript",
+      description:
+        "As a Full Stack JavaScript developer, I have completed a comprehensive program that includes essential modules such as Frontend Fundamentals, Backend Fundamentals, JavaScript Programming, React, and Node.js. This certification demonstrates my capability to develop dynamic and responsive web applications, including creating intuitive user interfaces using React.js, and implementing backend systems using Node.js. I am proficient in building both the frontend and backend components of web applications, ensuring seamless integration and functionality. My training allows me to design and deploy robust systems that meet modern web development standards, combining my expertise in both frontend and backend development for an end-to-end web development solution.",
+      tags: [
+        { name: "javascript", color: "blue-text-gradient" },
+        { name: "programming", color: "pink-text-gradient" },
+      ],
+      image: "/certifications/Full_Stack_JavaScript_final.png",
+      source_code_link: "https://www.credly.com/badges/142f9a62-7011-42bc-b39e-ec468b701030",
+      src_img: download_icon,
+    },
+    {
+      name: "React.js",
+      description:
+        "With this React.js certification, I have demonstrated my ability to build declarative user interfaces for the web using React. I am proficient in creating interactive components, managing internal component states, handling hooks, and deploying applications. I also leverage surrounding frontend development tools and libraries that enhance the React ecosystem, optimizing key coding processes. This certification reflects my competence in developing dynamic, efficient, and scalable user interfaces with modern React features and practices.",
+      tags: [
+        { name: "react", color: "blue-text-gradient" },
+        { name: "programming", color: "pink-text-gradient" },
+      ],
+      image: "/certifications/Full_Stack_JavaScript_M05_React.png",
+      source_code_link: "https://www.credly.com/badges/beb242e1-14a5-4603-99c7-7347114371c9",
+      src_img: download_icon,
+    },**/
+  ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  
+  export { services, technologies, experiences, testimonials, projects, certifications };
